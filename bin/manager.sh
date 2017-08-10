@@ -9,7 +9,7 @@ start () {
 }
 
 stop () {
-  cat $PIDFILE >> kill
+  pkill -F $PIDFILE
 }
 
 case "$1" in

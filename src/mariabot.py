@@ -4,7 +4,7 @@
 
 import telebot
 
-bot = telebot.TeleBot("226508529:AAG_wbAKJ5fmPMnP918XvLDh503XhKTFxCw")
+bot = telebot.TeleBot("226508529:AAGmqcertrHetfMndjY_6siON5CwD91A-6A")
 
 @bot.message_handler(commands=['repo'])
 def repository(message):
