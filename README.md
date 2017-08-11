@@ -7,3 +7,4 @@ TO DO:
 * Write some development information about MariaBot.
 * Write some information about how to start/stop the bot.
 * Extend manager.sh with more info about how its running.
+* Create a log file (for development/fixes purposes)
