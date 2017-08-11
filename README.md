@@ -2,9 +2,4 @@
 
 Just another Telegram bot that can welcome your group's new members.
 
-TO DO:
-
-* Write some development information about MariaBot.
-* Write some information about how to start/stop the bot.
-* Extend manager.sh with more info about how its running.
-* Create a log file (for development/fixes purposes)
+This bot was created for Andalucía Developers group. If you want to use it for your own group, please fork it, edit it with your info, and host whatever you want.
