@@ -3,7 +3,7 @@
 
 import telebot
 
-bot = telebot.TeleBot("226508529:AAGmqcertrHetfMndjY_6siON5CwD91A-6A")
+bot = telebot.TeleBot(<TOKEN API HERE>)
 
 @bot.message_handler(commands=['about'])
 def about(message):
