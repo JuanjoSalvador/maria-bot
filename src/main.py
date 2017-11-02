@@ -1,6 +1,4 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
 import telebot
 
 bot = telebot.TeleBot("226508529:AAGmqcertrHetfMndjY_6siON5CwD91A-6A")
@@ -18,8 +16,8 @@ def status(message):
 
 @bot.message_handler(func=lambda m: True, content_types=['new_chat_members'])
 def welcome(message):
-    if  message.new_chat_member.username:
-        new_member =  message.new_chat_member.username
+    if message.new_chat_member.username:
+        new_member = message.new_chat_member.username
     else:
         new_member = "undefined"
         
@@ -29,4 +27,8 @@ def welcome(message):
 
     bot.send_message(chat_id, msg)
 
-bot.polling()
+def main():
+    bot.polling()
+
+if "__name__" == "__main__":
+    main()
